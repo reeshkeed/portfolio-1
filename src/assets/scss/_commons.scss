@@ -50,6 +50,7 @@ a.card, a.card:hover,
 a.hero, a.hero:hover {
   box-shadow: 0 2px 5px $box-card-link-shadow-color;
   border-color: transparent;
+  color: $text;
 }
 
 .image video {
@@ -116,7 +117,7 @@ ul.horizontal {
     transition: opacity .3s ease;
 
     path {
-      fill: $white-bis;
+      fill: #f1f1f1;
     }
 
     @include touch {

@@ -55,8 +55,7 @@ export default {
   data: () => ({
     entries,
 
-    isFlying: false,
-    isLanding: false
+    isFlying: false
   }),
 
   mounted () {
@@ -87,14 +86,14 @@ export default {
 }
 
 .heading-art:hover path {
-  fill: $white;
+  fill: #fff;
 }
 
 .fly {
   animation: fly 4s ease forwards;
 
   path {
-    fill: $white !important;
+    fill: #fff !important;
   }
 }
 

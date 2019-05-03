@@ -1,0 +1,31 @@
+$text: $white-bis;
+
+$_white: $white;
+$_white-bis: $white-bis;
+$_white-ter: $white-ter;
+
+$white: $black;
+$white-bis: $black-bis;
+$white-ter: $black-ter;
+
+$grey-lighter: $_white-ter;
+$grey-light: $_white-bis;
+$grey-dark: $_white-bis;
+$grey-darker: $_white-ter;
+
+$black-ter: $_white-ter;
+$black-bis: $_white-bis;
+$black: $_white;
+
+$primary: #243B55;
+$secondary: darken($primary, 10);
+$tertiary: darken($primary, 20);
+
+$link: lighten($primary, 30);
+$link-hover: lighten($primary, 60);
+
+$navbar-height: 4rem;
+$gap: 120px;
+
+$box-card-shadow-color: rgba(10, 10, 10, 0.05);
+$box-card-link-shadow-color: rgba(10, 10, 10, 0.1);

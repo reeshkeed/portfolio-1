@@ -19,7 +19,9 @@
       <router-view />
     </transition>
 
-    <Footer />
+    <Footer
+      @toggleDarkMode="toggleDarkMode"
+    />
 
     <transition
       name="fade"
@@ -112,13 +114,17 @@ export default {
 
     closeMenu () {
       this.$refs.navbar.closeMenu()
+    },
+
+    toggleDarkMode () {
+      import('@/assets/scss/styles.dark.scss')
     }
   }
 }
 </script>
 
 <style lang="scss">
-@import '@/assets/scss/styles.scss';
+@import '@/assets/scss/styles.light.scss';
 @import '@/assets/scss/fonts.scss';
 
 .has-navbar-fixed-top {

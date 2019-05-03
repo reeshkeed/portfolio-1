@@ -29,6 +29,10 @@
             </router-link>
           </li>
         </ul>
+
+        <p>
+          <a href="#" @click.prevent="toggleDarkMode()">Toggle dark-mode</a>
+        </p>
       </div>
     </section>
   </footer>
@@ -38,6 +42,12 @@
 import SocialLinks from '@/components/SocialLinks'
 
 export default {
-  components: { SocialLinks }
+  components: { SocialLinks },
+
+  methods: {
+    toggleDarkMode () {
+      this.$emit('toggleDarkMode')
+    }
+  }
 }
 </script>

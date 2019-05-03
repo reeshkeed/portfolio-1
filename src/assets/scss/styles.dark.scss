@@ -1,0 +1,9 @@
+@import 'variables.dark';
+@import 'bulma';
+@import 'commons';
+
+.navbar.is-dark.is-transparent {
+  @extend .navbar, .is-white;
+
+  background: transparent;
+}

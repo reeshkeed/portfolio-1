@@ -9,7 +9,7 @@ module.exports = {
         data: `
           @import '~bulma/sass/utilities/initial-variables.sass';
           @import '~bulma/sass/utilities/mixins.sass';
-          @import '@/assets/scss/_variables.scss';
+          @import '@/assets/scss/_variables.light.scss';
           @import '@/assets/scss/_mixins.scss';
         `
       }
